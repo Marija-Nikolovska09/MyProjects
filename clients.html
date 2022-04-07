@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Brainster</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+
+    <!-- Latest compiled and minified Bootstrap 4.4.1 CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Latest Font-Awesome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+        integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
+    <!--load all styles -->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet" />
+
+
+</head>
+
+<body>
+
+    <div class="main-navbar center-links">
+
+        <nav class="navbar navbar-expand-lg ">
+            <div class="navbar-logo">
+                <a href="index.html"><img src="assets/images/default.png" alt=""> <br>BRAINSTER</a>
+            </div>
+
+
+
+            <div class="collapse navbar-collapse mr-0" id="navbarSupportedContent ">
+                <ul class="navbar-nav mr-auto font-weight-bold space">
+
+                    <li class="nav-item mr-3">
+                        <a class="nav-link" href="https://brainster.co/marketing/">Академија за маркетинг</a>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <a class="nav-link" href="https://brainster.co/full-stack/">Академија за програмирање</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://brainster.co/graphic-design/">Академија за дизајн</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+            <div class="navigation">
+                <div onclick="showSidebar()" class="toggle-nav">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+
+                <div class="sidebar">
+                    <a onclick="closeSidebar()"><i class="fa fa-times"></i></a>
+                    <a href="https://brainster.co/marketing/">Академија за маркетинг</a>
+                    <a href="https://brainster.co/full-stack/">Академија за програмирање</a>
+                    <a href="https://brainster.co/graphic-design/">Академија за дизајн</a>
+
+                    <div class="nav-a-sidebar">
+                        <a href="./forma.html">Вработи наш студент</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="nav-a">
+                <a href="./forma.html">Вработи наш студент</a>
+            </div>
+
+        </nav>
+
+        <hr>
+
+
+
+    </div>
+
+    <div class="container-fluid table-resp">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center h1-style ">Вработи студент</h1>
+            </div>
+        </div>
+        <!-- <div class="container"> -->
+
+        <div class="row margina2  ">
+            <div class="col-md-10 margina2">
+                <div class="row padding-bottom ">
+                    <div class="col-md-10 col-md-offset-1">
+
+
+                        <table class="table">
+                            <caption>List of users</caption>
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Име и Презиме</th>
+                                    <th scope="col">Име на компанија</th>
+                                    <th scope="col">Контакт имејл</th>
+                                    <th scope="col">Контакт телефон</th>
+                                    <th scope="col">Тип на студент</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Aleks Max</td>
+                                    <td>Accesco</td>
+                                    <td>aleks_max@gmail.com</td>
+                                    <td>+389547835</td>
+                                    <td>Студенти од маркетинг</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Николовска Марија</td>
+                                    <td>Interworks</td>
+                                    <td>marija_nikol09@gmail.com</td>
+                                    <td>+3897063238</td>
+                                    <td>Студенти од програмирање</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>Anne Lopez</td>
+                                    <td>Anne Corporation </td>
+                                    <td>anne@lopez.co</td>
+                                    <td>+3895556686</td>
+                                    <td>Студенти од дизајн</td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+
+    <div class="row">
+        <div class="col-12 bg-dark text-center py-1">
+            <h4 class="text-white">
+                Изработено со
+                <i class="fa fa-heart heart-red text-danger" aria-hidden="true"></i> од
+                студентите на Brainster
+            </h4>
+        </div>
+    </div>
+
+
+
+   
+
+    <!-- jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+
+    <!-- Latest Compiled Bootstrap 4.4.1 JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+
+    <script>
+        $(function () {
+            $("[data-toggle='tooltip']").tooltip();
+            $("[data-toggle='popover']").popover();
+        });
+    </script>
+</body>
+
+</html>

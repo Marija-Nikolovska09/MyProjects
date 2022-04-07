@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Brainster</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    
+
+     <!-- Latest compiled and minified Bootstrap 4.4.1 CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+     <!-- Latest Font-Awesome CDN -->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+   
+    <!--load all styles -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet"/>
+
+    
+
+      
+  </head>
+  <body>
+    
+    <div class="main-navbar center-links">
+
+      
+
+        <nav class="navbar navbar-expand-lg ">
+          <div class="navbar-logo">
+            <a href="index.html"><img src="assets/images/default.png" alt=""> <br>BRAINSTER</a>
+          </div>
+  
+          
+  
+            <div class="collapse navbar-collapse mr-0" id="navbarSupportedContent ">
+              <ul class="navbar-nav mr-auto font-weight-bold space">
+                
+                <li class="nav-item mr-3">
+                  <a class="nav-link" href="https://brainster.co/marketing/">Академија за маркетинг</a>
+                </li>
+                <li class="nav-item mr-3">
+                 <a class="nav-link" href="https://brainster.co/full-stack/">Академија за програмирање</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="https://brainster.co/graphic-design/">Академија за дизајн</a>
+               </li>
+                
+                
+              </ul>
+             
+            </div>
+           <div class="navigation">
+               <div onclick="showSidebar()" class="toggle-nav">
+                   <div></div>
+                   <div></div>
+                   <div></div>
+               </div>
+     
+               <div class="sidebar">
+                   <a onclick="closeSidebar()"><i class="fa fa-times"></i></a>
+                   <a href="https://brainster.co/marketing/">Академија за маркетинг</a>
+                   <a href="https://brainster.co/full-stack/">Академија за програмирање</a>
+                   <a href="https://brainster.co/graphic-design/">Академија за дизајн</a>
+                  
+                   <div class="nav-a-sidebar">
+                      <a href="./forma.html" >Вработи наш студент</a> 
+                   </div>
+              </div>
+                               
+           </div>
+           <div class="nav-a">
+               <a href="./forma.html" >Вработи наш студент</a>
+           </div>
+
+         </nav>
+
+         <hr>
+  
+
+      </div>
+
+
+<!-- forma -->
+
+
+
+<div class="container-fluid bg-color">
+  <div class="row">
+    <div class="col-md-12">
+      <h1 class="text-center h1-style ">Вработи студент</h1>
+    </div>
+  </div>
+  <!-- <div class="container"> -->
+
+    <div class="row margina2 ">
+      <div class="col-md-10 margina2">
+        <div class="row padding-bottom ">
+          <div class="col-md-10 col-md-offset-1">
+            <form  method="POST" action="clients.php">
+              <div class="row">
+                  
+                      <div class="form-group col-md-6">
+                        <label for="ime_prezime">Име и презиме</label>
+                        <input
+                          type="text"
+                          class="form-control padding-style font-italic"
+                          id="ime_prezime"
+                          placeholder="Вашето име и презиме"
+                          name="ime_prezime"
+                          required
+                        />
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="ime_kompanija">Име на компанија</label>
+                        <input
+                          type="text"
+                          class="form-control padding-style font-italic"
+                          id="ime_kompanija"
+                          placeholder="Име на вашата компанија"
+                          name="ime_kompanija"
+                          required
+                        />
+                      </div>
+                  
+              </div>
+              
+              <div class="row">
+              
+                  <div class="form-group col-md-6">
+                    <label for="email">Контакт имејл</label>
+                    <input
+                      type="email"
+                      class="form-control padding-style font-italic"
+                      id="email"
+                      placeholder="Контакт имејл на вашата компанија"
+                      name="email"
+                      required
+                    />
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="telefon">Контакт телефон</label>
+                    <input
+                      type="text"
+                      class="form-control padding-style font-italic"
+                      id="telefon"
+                      placeholder="Контакт телефон на вашата компанија"
+                      name="telefon"
+                      required
+                    />
+                  </div>
+              
+              </div>
+              <div class="row">
+              
+                  <div class="form-group col-md-6">
+                    <label for="tip_studii">Тип на студенти</label>
+                    <div class="div-select">
+                       <select class="form-control my-select " name="tip_studii" >
+                             <option class="list-item-group">Изберете тип на студент</option>
+                             <option class="list-item-group">Студенти од маркетинг</option>
+                             <option class="list-item-group">Студенти од програмирање</option>
+                             <option class="">Студенти од дизајн</option>
+                         
+                       </select> 
+                    </div>                    
+                </div>
+                <div class="form-group col-md-6">
+                    <button type="submit" class="btn form-button col-md-6">Испрати
+                      </button>
+                </div>
+              
+                </div>
+              
+            </form>
+
+  
+  
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+
+  <div class="row">
+    <div class="col-12 bg-dark text-center py-1">
+      <h4 class="text-white">
+        Изработено со
+        <i class="fa fa-heart heart-red text-danger" aria-hidden="true"></i> од
+        студентите на Brainster
+      </h4>
+    </div>
+  </div>
+
+  
+</div>
+
+
+
+
+
+<!-- jQuery library -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        
+<!-- Latest Compiled Bootstrap 4.4.1 JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="./assets/js/index.js"></script>
+
+
+<script>
+    $(function() {
+        $("[data-toggle='tooltip']").tooltip();
+        $("[data-toggle='popover']").popover();
+    });
+</script>
+</body>
+</html>
