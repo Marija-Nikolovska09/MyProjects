@@ -1,0 +1,46 @@
+body {
+    padding-top: 56px;
+    overflow-x: hidden;
+}
+
+.bg-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("./images/home.jpg");
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+}
+
+
+
+.text-red {
+    color: red;
+}
+
+i {
+    color: blue;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: white;
+    margin-bottom: 40px
+}
+
+.bg-color {
+    background-color:#4900D5;
+}
+
+.border-purple {
+    color: #4900D5;
+
+}
+
+.icon {
+    
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 3px; 
+
+}
+
