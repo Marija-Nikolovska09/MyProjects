@@ -1,0 +1,46 @@
+body {
+    overflow-x: hidden;
+}
+
+.back {
+    background-image: url(https://media.istockphoto.com/photos/top-view-desk-of-work-table-in-office-with-laptop-computer-notebook-picture-id979195144?k=20&m=979195144&s=170667a&w=0&h=NIwkFIYwDp9Uqjb6oBPcHaLv3Roe3KY_7u1CiODY1c0=);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.btn {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.back {
+    background-image:  url(https://www.teahub.io/photos/full/1-19442_garden-green-flowers-flower-wallpaper-green.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bla {
+    margin-top: -4rem !important;
+}
+
+.bg {
+    background-image: url(https://static.joandjudy.com/media/image/d0/62/11/220322_joandjudy_wallpaper_header.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.margina{
+    margin-top:180px;
+} 
+
+
