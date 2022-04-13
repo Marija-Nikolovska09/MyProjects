@@ -1,0 +1,93 @@
+body {
+    overflow-x: hidden;
+}
+
+.nav-item.active {
+    border-left: 1px solid white;
+
+}
+
+.carousel-inner {
+    height:550px;
+  } 
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: auto;
+  }
+
+.fa-cog,
+.fa-cloud,
+.fa-shopping-cart,
+.fa-check {
+    font-size: 30px;
+}
+
+.parallax1 {
+    background-image: url(./Images/lights.jpg);
+   
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    background-image: linear-gradient(rgba(10, 10, 10, 0.671),rgba(10, 10, 10, 0.733)) , url(./Images/media.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.example .card {
+    background-color: #212121;
+}
+
+.img-aboutus {
+    margin-top: -50px;
+}
+
+.parallax3 {
+    background-image: url(./Images/image1.jpg);
+    background-attachment: fixed;
+   height: 550px;
+}
+
+.fa-building,
+.fa-bullhorn,
+.fa-comments,
+.fa-clock,
+.fa-closed-captioning,
+.fa-coffee {
+    font-size: 30px;
+    color: white;
+}
+
+.carousel-inner1 {
+    height: 80px;
+}
+
+
+
+
+
+
+
+@media (max-width: 678px) {
+    .carousel-inner {
+        height:100%;
+      } 
+      
+   
+} 
+
